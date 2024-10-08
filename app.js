@@ -3,10 +3,11 @@
 const http = require("http");
 http
   .createServer((request, response) => {
-    response.write('Hello my port of node js ');
+    response.write("Hello my port of node js ");
     response.end();
   })
   .listen(4200);
+console.log("Hello ahmed kia kar raaha ho");
 
 // module.exports = {
 
